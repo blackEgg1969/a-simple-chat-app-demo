@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("chatWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02308008df88bb583fcbbf14bb588a8b18ce7036")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e632c87b47a8d6fbceaa96462a4271e342f28546")]
 [assembly: System.Reflection.AssemblyProductAttribute("chatWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("chatWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

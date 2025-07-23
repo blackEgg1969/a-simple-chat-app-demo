@@ -30,7 +30,7 @@ namespace chatWebAPI.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<string>> Login(UserLoginDto request)
+        public async Task<ActionResult<TokenResponseDto>> Login(UserLoginDto request)
         {
             var token = await authService.LoginAsync(request);
             if (token is null)
@@ -38,6 +38,16 @@ namespace chatWebAPI.Controllers
                 return BadRequest("Invalid username or password");
             }
             return Ok(token);
+        }
+
+        [HttpPost("refresh-token")]
+        public async Task<ActionResult<TokenResponseDto>> RefreshToken(RefreshTokenRequestDto request)
+        {
+            var result = await authService.RefreshTokensAsync(request);
+            if (result is null || result.AccessToken is null || result.RefreshToken is null)
+                return Unauthorized("Invalid refresh token.");
+
+            return Ok(result);
         }
 
         [Authorize]

@@ -9,7 +9,8 @@ namespace chatWebAPI.Service
 {
     public interface IAuthService
     {
-        public Task<String?> LoginAsync(UserLoginDto request);
+        public Task<TokenResponseDto?> LoginAsync(UserLoginDto request);
         public Task<UserLogin?> RegisterAsync(UserLoginDto request);
+        public Task<TokenResponseDto?> RefreshTokensAsync(RefreshTokenRequestDto requst);
     }
 }

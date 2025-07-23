@@ -170,3 +170,4 @@
 /Users/muxiaoyang/Documents/react_ts_demo/chatBackend/chatWebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/muxiaoyang/Documents/react_ts_demo/chatBackend/chatWebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/muxiaoyang/Documents/react_ts_demo/chatBackend/chatWebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/muxiaoyang/Documents/react_ts_demo/chatBackend/chatWebAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
